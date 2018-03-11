@@ -1,4 +1,3 @@
-package main;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-public abstract class PathGenerator extends JFrame implements KeyListener, MouseListener {
+public class PathGenerator extends JFrame implements KeyListener, MouseListener {
 
 	private BufferedImage background = ImageIO.read(new File("Field.png"));
 	private BufferedImage bufferImage = new BufferedImage(1080, 540, BufferedImage.TYPE_INT_RGB);
